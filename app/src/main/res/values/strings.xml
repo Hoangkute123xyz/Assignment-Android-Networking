@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment Android Networking</string>
+    <string name="lastest">Mới nhất</string>
+    <string name="categories">Chuyên mục</string>
+    <string name="more">Thêm</string>
+    <string name="downloading">Đang tải xuống ảnh...</string>
+    <string name="download_image">Tải xuống ảnh</string>
+    <string name="done">Hoàn tất</string>
+    <string name="download_done">Tải xuống hoàn tất :D</string>
+    <string name="set_wallpaper_successfully">Đặt hình nền thành công</string>
+    <string name="an_occured_error">Có lỗi xảy ra, vui lòng thử lại sau</string>
+    <string name="scroll">Cuộn</string>
+    <string name="no_scroll">Không cuộn</string>
+    <string name="scroll_with_time">Cuộn với lịch cụ thể</string>
+    <string name="no_scroll_with_time">không cuộn với lịch cụ thể</string>
+    <string name="set_schduler_successfully">Đặt lịch thành công</string>
+    <string name="just_now">Vừa xong</string>
+    <string name="second_ago">giây trước</string>
+    <string name="minute_ago">phút trước</string>
+    <string name="hour_ago">giờ trước</string>
+    <string name="day_ago">ngày trước</string>
+    <string name="no_data">không có dữ liệu</string>
+    <string name="comments">Bình luận</string>
+    <string name="search_hint">Bạn cần tìm gì...?</string>
+</resources>

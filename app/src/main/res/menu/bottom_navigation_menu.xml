@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_home"
+        android:title="@string/lastest"
+        android:checked="true"
+        android:icon="@drawable/ic_outline_whatshot_24"/>
+    <item android:id="@+id/item_categories"
+        android:title="@string/categories"
+        android:icon="@drawable/ic_outline_category_24"/>
+    <item android:id="@+id/item_more"
+        android:title="@string/more"
+        android:icon="@drawable/ic_outline_more_horiz_24"/>
+</menu>

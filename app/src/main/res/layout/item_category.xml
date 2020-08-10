@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingBottom="1dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgCover1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="true"
+            android:background="@color/colorWhite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgCover2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="true"
+            android:background="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="@+id/imgCover1"
+            app:layout_constraintStart_toStartOf="@+id/imgCover1"
+            app:layout_constraintTop_toBottomOf="@+id/imgCover1" />
+
+        <ImageView
+            android:id="@+id/imgCover3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="@+id/imgCover2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgCover1"
+            app:layout_constraintTop_toTopOf="@+id/imgCover1" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_pannel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_outline_remove_red_eye_24"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/tvView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@+id/imgView"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imgPhoto"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@+id/tvView"
+                android:src="@drawable/ic_outline_image_24" />
+
+            <TextView
+                android:id="@+id/tvPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@+id/imgPhoto"
+                android:text="0"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:lines="1"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:ellipsize="end"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_toEndOf="@+id/tvPhoto" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
